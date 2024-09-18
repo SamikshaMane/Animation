@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation Example 1</title>
+	<style type="text/css">
+		.div1{
+			height: 200px;
+			width: 200px;
+			background-color: grey;
+			position: relative;
+			top: 100px;
+			left: 100px;
+			animation-name: move;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate-reverse;
+			animation-timing-function: ease-in-out;
+		}
+		@keyframes move{
+		0%{
+           background-image: url("https://freepngimg.com/thumb/the_boss_baby/29414-7-the-boss-baby-transparent-background-thumb.png");
+		}	
+		25%{
+			top: 100px;
+				left: 1000px;
+				transform: rotate(360deg);
+				border-radius: 50%;
+				background-image: url("https://p1.hiclipart.com/preview/370/282/455/boss-baby-cuteness-animation-film-infant-face-family-youtube-png-clipart.jpg");
+				background-size: cover;
+		}
+		50%{
+            top: 1100px;
+				left: 1100px;
+				transform: rotate(-360deg);
+				border-radius: 0px;
+				background-image: url(" https://w7.pngwing.com/pngs/461/439/png-transparent-boss-baby-the-boss-baby-big-boss-baby-infant-film-animation-the-boss-baby-child-face-toddler-thumbnail.png");
+				background-size: cover;
+		}
+		75%{
+            top: 1100px;
+				left: 100px;
+				transform: rotate(360deg);
+				border-radius: 50%;
+				background-image: url("https://i.pinimg.com/736x/22/24/25/2224259f1782bc5603a53cd8d516852b.jpg");
+				background-size: cover;
+		}
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		
+	</div>
+</body>
+</html>
